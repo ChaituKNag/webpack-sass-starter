@@ -1,0 +1,8 @@
+{
+  "name": "webpack-sass-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ChaituKNag/webpack-sass-starter.git",
+  "author": "Naga Chaitanya Konada <nkonada@deloitte.com>",
+  "license": "MIT"
+}
