@@ -12,6 +12,16 @@ module.exports = {
             template: './src/template.html'
         })
     ],
+    module: {
+        rules: [{
+            test: /\.scss/,
+            use: [
+                "style-loader",
+                "css-loader",
+                "sass-loader"
+            ]
+        }]
+    },
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
