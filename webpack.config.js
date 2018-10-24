@@ -8,7 +8,9 @@ module.exports = {
     },
     plugins: [
         new CleanWebpackPlugin(['dist']),
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin({
+            template: './src/template.html'
+        })
     ],
     output: {
         filename: '[name].bundle.js',
