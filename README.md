@@ -1,3 +1,14 @@
 # webpack-sass-starter
 My starter for SASS projects using webpack
-- Init with `yarn init`
+
+## To install
+Do
+```
+yarn install
+```
+
+## To start the dev server
+Do
+```
+yarn start
+```
